@@ -11,8 +11,9 @@
   h1 {
     text-align: center;
     font-size: 100px;
-    color: #f1f1f1;
+    color: $cl_secondary;
     font-family: Merienda one, sans-serif;
+    text-shadow: 0 0 10px $cl_primary;
   }
 }
 
@@ -27,16 +28,16 @@
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-  color: #f1f1f1;
+  color: $cl_secondary;
   margin: 5px 0;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 10px $cl_primary;
 }
 
 .accueil__btn {
   border-radius: 9999px;
-  border: 1px solid #333;
-  background: crimson;
-  color: #f1f1f1;
+  border: 1px solid $cl_primary;
+  background: lighten($cl_primary, 30%);
+  color: $cl_secondary;
   font-size: 22px;
   display: block;
   width: 200px;

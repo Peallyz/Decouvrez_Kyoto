@@ -42,7 +42,7 @@
     resize: none;
     outline: none;
     font-size: 20px;
-    background: darken(#f1f1f1, 5%);
+    background: darken($cl_secondary, 5%);
     color: #666666;
   }
   &:nth-child(4) {
@@ -57,8 +57,8 @@
     background: linear-gradient(
       to right,
       transparent 50%,
-      rgb(65, 65, 65) 50%,
-      rgb(134, 134, 134)
+      $cl_primary 50%,
+      lighten($cl_primary, 10%)
     );
     background-size: 210%;
     color: #333;

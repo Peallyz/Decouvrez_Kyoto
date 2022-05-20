@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -16,7 +17,7 @@ nav {
   position: fixed;
   height: 70px;
   width: 100%;
-  background: linear-gradient(to bottom, #333, #626262);
+  background: linear-gradient(to bottom, #480101, #7a0202);
   z-index: 10;
 }
 
@@ -30,7 +31,7 @@ nav {
 }
 
 .nav__liste {
-  background: linear-gradient(to bottom, #333, #626262);
+  background: linear-gradient(to bottom, #480101, #7a0202);
   height: 100%;
   width: 100%;
   display: flex;
@@ -82,6 +83,7 @@ nav {
   font-size: 100px;
   color: #f1f1f1;
   font-family: Merienda one, sans-serif;
+  text-shadow: 0 0 10px #480101;
 }
 
 .kyoto__logo {
@@ -97,13 +99,13 @@ nav {
   font-weight: bold;
   color: #f1f1f1;
   margin: 5px 0;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 10px #480101;
 }
 
 .accueil__btn {
   border-radius: 9999px;
-  border: 1px solid #333;
-  background: crimson;
+  border: 1px solid #480101;
+  background: #df0303;
   color: #f1f1f1;
   font-size: 22px;
   display: block;
@@ -152,7 +154,7 @@ nav {
 }
 
 .bloc {
-  background: #333;
+  background: #480101;
   color: #f1f1f1;
   position: relative;
   border-radius: 2px;
@@ -221,8 +223,8 @@ nav {
 .bloc button {
   border-radius: 9999px;
   outline: none;
-  border: 1px solid #333;
-  background: crimson;
+  border: 1px solid #480101;
+  background: #df0303;
   color: #f1f1f1;
   padding: 20px 35px;
   font-size: 20px;
@@ -233,17 +235,17 @@ nav {
 }
 .bloc button:hover {
   color: #ffffff;
-  background: #ad102f;
+  background: #930202;
 }
 
 .ligne__gauche {
   grid-area: 1/2/-1/3;
-  border-left: 1px solid #333;
+  border-left: 1px solid #480101;
 }
 
 .ligne__droite {
   grid-area: 1/3/-1/4;
-  border-left: 1px solid #333;
+  border-left: 1px solid #480101;
 }
 
 .parallax {
@@ -269,7 +271,7 @@ nav {
 
 .section__tarifs {
   padding-bottom: 150px;
-  border-bottom: 1px dashed #333;
+  border-bottom: 1px dashed #480101;
 }
 .section__tarifs h3 {
   text-align: center;
@@ -347,7 +349,7 @@ nav {
   transition: all 0.2s ease-in-out;
 }
 .cartes__tarifs a:hover {
-  background: #333;
+  background: #480101;
   color: #f1f1f1;
 }
 
@@ -409,7 +411,7 @@ nav {
   padding: 15px 60px;
   border: 3px solid rgb(144, 144, 144);
   border-radius: 9999px;
-  background: linear-gradient(to right, transparent 50%, rgb(65, 65, 65) 50%, rgb(134, 134, 134));
+  background: linear-gradient(to right, transparent 50%, #480101 50%, #7a0202);
   background-size: 210%;
   color: #333;
   font-size: 24px;
