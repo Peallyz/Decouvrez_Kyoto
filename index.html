@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="styles/css/style.css" />
+
+    <title>découvrez Kyoto</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation -->
+
+      <nav>
+        <ul class="nav__liste">
+          <li class="nav__item">
+            <a href="#home">Accueil</a>
+          </li>
+          <li class="nav__item">
+            <a href="#asym">Que Faire ?</a>
+          </li>
+          <li class="nav__item">
+            <a href="#tarifs">Tarifs</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <img src="ressources/menu.svg" alt="logo du menu" class="menu__logo" />
+      </nav>
+
+      <!-- Accueil -->
+
+      <div class="accueil" id="home">
+        <img
+          src="ressources/logo-porte-japon.jpg"
+          alt="Porte de temple japonais"
+          class="kyoto__logo"
+        />
+
+        <h1>Découvrez Kyoto</h1>
+        <p class="sous-titre">La ville impériale du Japon</p>
+        <a href="#asym" class="accueil__btn">En savoir plus</a>
+      </div>
+    </header>
+    <main>
+      <!-- Section asymetrique -->
+      <section class="section__asymetrique">
+        <h2>Que faire à Kyoto ?</h2>
+        <div class="bloc bloc__left bloc--1">
+          <div class="bloc__txt--left">
+            <h3>Visitez des temples</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              quos? Optio officia aut aperiam? Voluptatem ipsam quae eveniet
+              veritatis cumque, dolores provident repellendus quas sed
+              exercitationem. Corrupti, placeat delectus? Nam quas minus
+              praesentium, accusantium aut assumenda, deserunt illum asperiores,
+              cupiditate repellendus quidem beatae enim libero sit illo qui
+              porro sed.
+            </p>
+            <button class="btn__bloc--left">En savoir plus</button>
+          </div>
+        </div>
+        <img
+          src="ressources/kyoto-temple.jpg"
+          alt="Chemin d'un temple à Kyoto"
+          class="img__grid img__grid--1"
+        />
+
+        <div class="bloc bloc__right bloc--2">
+          <div class="bloc__txt--right">
+            <h3>Visitez des chateaux</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              quos? Optio officia aut aperiam? Voluptatem ipsam quae eveniet
+              veritatis cumque, dolores provident repellendus quas sed
+              exercitationem. Corrupti, placeat delectus? Nam quas minus
+              praesentium, accusantium aut assumenda, deserunt illum asperiores,
+              cupiditate repellendus quidem beatae enim libero sit illo qui
+              porro sed.
+            </p>
+            <button class="btn__bloc--right">En savoir plus</button>
+          </div>
+        </div>
+        <img
+          src="ressources/chateau-kyoto.jpg"
+          alt="Chateau de Kyoto"
+          class="img__grid img__grid--2"
+        />
+
+        <div class="bloc bloc__left bloc--3">
+          <div class="bloc__txt--left">
+            <h3>Explorez ses traditions</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              quos? Optio officia aut aperiam? Voluptatem ipsam quae eveniet
+              veritatis cumque, dolores provident repellendus quas sed
+              exercitationem. Corrupti, placeat delectus? Nam quas minus
+              praesentium, accusantium aut assumenda, deserunt illum asperiores,
+              cupiditate repellendus quidem beatae enim libero sit illo qui
+              porro sed.
+            </p>
+            <button class="btn__bloc--left">En savoir plus</button>
+          </div>
+        </div>
+        <img
+          src="ressources/geisha.jpg"
+          alt="Geisha"
+          class="img__grid img__grid--3"
+        />
+
+        <div class="ligne__gauche"></div>
+        <div class="ligne__droite"></div>
+      </section>
+
+      <!-- Section Parallax -->
+      <section class="parallax">
+        <p>冒険に行く</p>
+        <span>Partez à l'aventure</span>
+      </section>
+
+      <!-- Section Tarifs -->
+      <section class="section__tarifs" id="tarifs">
+        <h3>Laissez vous guider...</h3>
+        <hr />
+        <div class="container__tarifs">
+          <div class="cartes__tarifs">
+            <h4>Classique</h4>
+            <span>100€</span>
+            <p>✔️ Visite des châteaux</p>
+            <p>✔️ Visite de la ville</p>
+            <p>✔️ Spectacle folklorique</p>
+            <p>❌ Restaurant typique d'exception</p>
+            <p>❌ Visite culturelle sur plusieurs jours</p>
+            <p>❌ Accès privé à des lieux grandioses</p>
+
+            <a href="#contact">Réservez un guide</a>
+          </div>
+
+          <div class="cartes__tarifs">
+            <h4>Découverte</h4>
+            <span>250€</span>
+            <p>✔️ Visite des châteaux</p>
+            <p>✔️ Visite de la ville</p>
+            <p>✔️ Spectacle folklorique</p>
+            <p>✔️ Restaurant typique d'exception</p>
+            <p>❌ Visite culturelle sur plusieurs jours</p>
+            <p>❌ Accès privé à des lieux grandioses</p>
+
+            <a href="#contact">Réservez un guide</a>
+          </div>
+
+          <div class="cartes__tarifs">
+            <h4>Exception</h4>
+            <span>500€</span>
+            <p>✔️ Visite des châteaux</p>
+            <p>✔️ Visite de la ville</p>
+            <p>✔️ Spectacle folklorique</p>
+            <p>✔️ Restaurant typique d'exception</p>
+            <p>✔️ Visite culturelle sur plusieurs jours</p>
+            <p>✔️ Accès privé à des lieux grandioses</p>
+
+            <a href="#contact">Réservez un guide</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Contact -->
+      <section class="section__contact" id="contact">
+        <h2><strong>Rentrons</strong> en contact</h2>
+        <div class="container__form">
+          <form action="get" class="form__bloc">
+            <div class="form__groupe">
+              <label for="prenom">Entrez votre prénom</label>
+              <input type="text" placeholder="Prénom" required id="prenom" />
+            </div>
+            <div class="form__groupe">
+              <label for="nom">Entrez votre nom</label>
+              <input type="text" placeholder="Nom" required id="nom" />
+            </div>
+            <div class="form__groupe">
+              <textarea
+                id="txt"
+                placeholder="Votre message"
+                required
+              ></textarea>
+            </div>
+            <div class="form__groupe">
+              <input type="submit" value="ENVOYER" class="btn__submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><p>Tous Droits Réservés &copy; Peally</p></footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

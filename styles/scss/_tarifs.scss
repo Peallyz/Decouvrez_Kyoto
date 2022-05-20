@@ -1,0 +1,82 @@
+.section__tarifs {
+  padding-bottom: 150px;
+  border-bottom: 1px dashed #333;
+  h3 {
+    text-align: center;
+    font-size: 45px;
+    margin: 120px 0 20px;
+    padding: 0 30px;
+  }
+  hr {
+    width: 200px;
+    margin: 20px auto 100px;
+  }
+}
+.container__tarifs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cartes__tarifs {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin: 15px 15px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  h4 {
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 35px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background: #ffafbf;
+  }
+  span {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  &:nth-child(2) h4 {
+    background: #ff5073;
+  }
+  &:nth-child(3) h4 {
+    background: #ff0033;
+  }
+  p {
+    font-size: 18px;
+    padding: 20px 10px;
+    border-top: 1px solid rgb(194, 197, 194);
+    &:last-of-type {
+      border-bottom: 1px solid rgb(194, 197, 194);
+    }
+    &:nth-child(odd) {
+      background: rgba(195, 195, 195, 0.219);
+    }
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #333;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 9999px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background: #333;
+      color: #f1f1f1;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "sitekyoto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass": "sass --watch styles/scss/main.scss:styles/css/style.css"
+  },
+  "author": "Peally",
+  "license": "ISC"
+}

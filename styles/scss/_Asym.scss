@@ -1,0 +1,132 @@
+.section__asymetrique {
+  display: grid;
+  grid-template: 200px repeat(3, auto) / 1fr 600px 1fr;
+  background: #f1f1f1;
+  h2 {
+    grid-area: 1/1/2/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+}
+
+// Placement
+
+// Bloc gauche
+
+.bloc--1,
+.img__grid--1 {
+  grid-area: 2/2/3/3;
+}
+
+.bloc__right,
+.img__grid--2 {
+  grid-area: 3/2/4/3;
+}
+
+.bloc--3,
+.img__grid--3 {
+  grid-area: 4/2/5/3;
+}
+
+.bloc {
+  background: #333;
+  color: #f1f1f1;
+  position: relative;
+  border-radius: 2px;
+  height: 750px;
+  margin-bottom: 250px;
+}
+
+.img__grid {
+  width: 500px;
+  height: 700px;
+  position: relative;
+  object-fit: cover;
+}
+
+.img__grid--1,
+.img__grid--3 {
+  top: 130px;
+  left: 20px;
+}
+.bloc__left {
+  left: -300px;
+}
+
+.bloc__txt--left {
+  width: 50%;
+  height: 100%;
+  h3 {
+    white-space: nowrap;
+    font-size: 35px;
+    margin: 30px 15px;
+  }
+  p {
+    line-height: 40px;
+    padding: 15px;
+  }
+}
+
+// Bloc droite
+
+.bloc__right {
+  right: -300px;
+}
+.img__grid--2 {
+  top: 130px;
+  left: 100px;
+}
+.bloc__txt--right {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  h3 {
+    font-size: 35px;
+    margin: 30px 15px;
+  }
+  p {
+    line-height: 40px;
+    padding: 15px;
+  }
+  .btn__bloc--right {
+    margin: 0px auto;
+  }
+}
+
+// Button et Effet on hover
+
+.bloc button {
+  border-radius: 9999px;
+  outline: none;
+  border: 1px solid #333;
+  background: crimson;
+  color: #f1f1f1;
+  padding: 20px 35px;
+  font-size: 20px;
+  margin: 35px auto;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: #ffffff;
+    background: darken(crimson, 10%);
+  }
+}
+
+// Ligne verticale
+
+.ligne__gauche {
+  grid-area: 1/2/-1/3;
+  border-left: 1px solid #333;
+}
+
+.ligne__droite {
+  grid-area: 1/3/-1/4;
+  border-left: 1px solid #333;
+}
